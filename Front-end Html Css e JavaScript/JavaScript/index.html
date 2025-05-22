@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do filme</title>
+</head>
+<body>
+    <h1>Cine EBAC:Filme em cartaz </h1>
+
+   <label for="Ititulo">Titulo do Filme</label>
+<input type="text" name="Titulo" id="titulo"> 
+<label for="Iduraçao">Duraçao (min) </label>
+<input type="text" name="duraçao" id="duracao">
+
+<button  onclick="Algoritmo()">Calcular duraçao</button>
+
+<h2 id="titulosaida"></h2>
+<h3 id="duracaoSaida"></h3>
+</body>
+</html>
+<script>
+function Algoritmo(){
+
+const titulo = document.getElementById("titulo").value;
+
+const duracao = document.getElementById("duracao").value;
+
+    const horas = Math.floor (duracao / 60);
+    const minutos = duracao - horas * 60;
+
+    document.getElementById("titulosaida").textContent= titulo. toUpperCase();
+
+  document.getElementById("duracaoSaida").textContent = horas + "hora (s)" + minutos + "minutos";
+
+}
+
+
+
+</script>

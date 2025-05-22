@@ -1,6 +1,6 @@
-#String Variavel
-print("Hello-World :)")
 
+print("Hello-World :)")
+#String Variavel
 Meu_nome= "Kauan"
 
 print(Meu_nome)
