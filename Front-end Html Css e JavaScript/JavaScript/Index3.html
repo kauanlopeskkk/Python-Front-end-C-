@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhaçao</title>
+    <link rel="stylesheet" href="Arquivo/jogadore.css">
+   <link rel="shortcut icon" href="Arquivo/1f3ae.png" type="Jogos Adivinhaçao">
+</head>
+<body>
+   <div class="Fundo">
+<h1>Jogo de Adivinhaçao</h1>
+<p>Tente adivinhar o numero secreto entre 1 e 100. </p>
+<br>
+<label for="numero">Escolhe o numero</label>
+<input type="number" id="palpite" placeholder="Digite um numero ">
+<button type="submit"  id="btnChutar"   onclick="verificarNumero()" >Chutar</button>
+ <p id="mensagem"></p>
+<p id="tentativas">Tentativas restantes:10</p>
+</div> 
+
+<script src="Arquivo/Jogos.js"></script>
+</body>
+</html>
