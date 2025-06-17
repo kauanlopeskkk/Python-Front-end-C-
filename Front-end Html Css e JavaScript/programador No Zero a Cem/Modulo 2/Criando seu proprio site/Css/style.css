@@ -1,0 +1,34 @@
+@charset "UTF-8"
+@font-face {
+    font-family: coolvetica ;
+    src: url();
+}
+ :root{--color:}
+
+*{margin: 0px;
+padding: 0px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+background-image: linear-gradient(to top,#BFBFBF,#0D0D0D,#404040);
+width: 100vw;
+
+}
+header{
+background-color:#F2F2F2 ;
+color: #BFBFBF;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
